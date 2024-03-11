@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 function GalleryItem({ image }) {
     return (
         <div className="relative bg-gray-100">
-            <img alt="gallery" className="w-full h-44 object-cover sm:h-64 rounded-md" src={image} />
+            <img alt="gallery" className="w-full h-44 object-cover sm:h-64 rounded-md transition duration-300 ease-in-out opacity-100 hover:opacity-60" src={image} />
         </div>
     );
 }

@@ -16,32 +16,36 @@ import RockyMountain from '../src/Components/Pages/RockyMountain'
 import Jasper from '../src/Components/Pages/Jasper'
 import MountRainier from '../src/Components/Pages/MountRainier'
 import NewRiver from '../src/Components/Pages/NewRiver'
+import About from '../src/Components/About'
 import './App.css'
+
 
 function App() {
 
     return (
         <>
+         
             <Router>
-            <Routes>
-                <Route path="/" element={<Layout />} />
-                <Route path="/Yellowstone" element={<Yellowstone />} />
-                <Route path="/Yosemite" element={<Yosemite />} />
-                <Route path="/SmokyMountains" element={<SmokyMountains />} />
-                <Route path="/Banff" element={<Banff />} />
-                <Route path="/Arches" element={<Arches />} />
-                <Route path="/Glacier" element={<Glacier />} />
-                <Route path="/Jasper" element={<Jasper />} />
-                <Route path="/NewRiver" element={<NewRiver />} />
-                <Route path="/RockyMountain" element={<RockyMountain />} />
-                <Route path="/Sequoia" element={<Sequoia />} />
-                <Route path="/GranTeton" element={<GranTeton />} />
-                <Route path="/MountRainier" element={<MountRainier />} />
-                <Route path="/GrosMorne" element={<GrosMorne />} />
-                <Route path="/Fundy" element={<Fundy />} />
-                <Route path="/BryceCanyon" element={<BryceCanyon />} />
-                <Route path="/GrandCanyon" element={<GrandCanyon />} />
-            </Routes>
+                <Routes>
+                    <Route path="/" element={<Layout />} />
+                    <Route path="/Yellowstone" element={<Yellowstone />} />
+                    <Route path="/Yosemite" element={<Yosemite />} />
+                    <Route path="/SmokyMountains" element={<SmokyMountains />} />
+                    <Route path="/Banff" element={<Banff />} />
+                    <Route path="/Arches" element={<Arches />} />
+                    <Route path="/Glacier" element={<Glacier />} />
+                    <Route path="/Jasper" element={<Jasper />} />
+                    <Route path="/NewRiver" element={<NewRiver />} />
+                    <Route path="/RockyMountain" element={<RockyMountain />} />
+                    <Route path="/Sequoia" element={<Sequoia />} />
+                    <Route path="/GranTeton" element={<GranTeton />} />
+                    <Route path="/MountRainier" element={<MountRainier />} />
+                    <Route path="/GrosMorne" element={<GrosMorne />} />
+                    <Route path="/Fundy" element={<Fundy />} />
+                    <Route path="/BryceCanyon" element={<BryceCanyon />} />
+                    <Route path="/GrandCanyon" element={<GrandCanyon />} />
+                    <Route path="/About" element={<About />} />
+                </Routes>
             </Router>
         </>
     )
