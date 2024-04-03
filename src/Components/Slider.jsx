@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import '../../src/index.css'
-import { Autoplay, Pagination, Navigation, EffectCoverflow } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import Arches from '../assets/Img/Logos/Arches.avif'
 import Banff from '../assets/Img/Logos/Banff.avif'
 import Bryce from '../assets/Img/Logos/Bryce-Canyon.avif'
@@ -25,36 +25,36 @@ import Yosemite from '../assets/Img/Logos/Yosemite.avif'
 function Slider() {
     return (
         <Swiper
-            slidesPerView={8}
-            spaceBetween={2}
-            loop={true}
-            effect={'coverflow'}
-            pagination={{
-                clickable: true,
-            }}
-            centeredSlides={true}
-            autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-                zoom: false,
-            }}
-            navigation={true}
-            modules={[Autoplay, Pagination, Navigation, EffectCoverflow]}
-            breakpoints={{
-                640: {
-                    slidesPerView: 2,
-                    spaceBetween: 20,
-                },
-                768: {
-                    slidesPerView: 4,
-                    spaceBetween: 40,
-                },
-                1024: {
-                    slidesPerView: 5,
-                    spaceBetween: 50,
-                },
-            }}
-            className="mySwiper my-14 drop-shadow-xl"
+        slidesPerView={8}
+        spaceBetween={2}
+        loop={true}
+        effect={'coverflow'}
+        pagination={{
+            clickable: true,
+        }}
+        centeredSlides={true}
+        autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+            zoom: false,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        breakpoints={{
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+            },
+            1024: {
+                slidesPerView: 5,
+                spaceBetween: 50,
+            },
+        }}
+        className="mySwiper drop-shadow-xl py-20 px-5 " 
         >
             <SwiperSlide>
                 <img src={Arches} />
