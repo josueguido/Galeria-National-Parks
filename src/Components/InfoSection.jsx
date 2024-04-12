@@ -4,7 +4,7 @@ const Info = ({ imageSrc, paragraph, imageLeft }) => {
   return (
     <div className={`flex ${imageLeft ? 'md:flex-row' : 'md:flex-row-reverse'} my-10 px-10 py-10 gap-10 flex-col justify-center items-center text-center`}>
       <img src={imageSrc} className=" w-72 h-44 drop-shadow-sm rounded-md"/>
-      <p className='font-normal font-serif text-balace md:text-pretty py-10'>{paragraph}</p>
+      <p className='font-normal font-serif text-balance md:text-pretty py-10'>{paragraph}</p>
     </div>
   );
 };

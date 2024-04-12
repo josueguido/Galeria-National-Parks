@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types';
 
 // Componente GalleryItem: Renderiza una sola imagen en un contenedor con fondo gris.
-// Props:
-// - image: URL de la imagen que se mostrará.
+
 function GalleryItem({ image }) {
     return (
         <div className="relative bg-gray-100">

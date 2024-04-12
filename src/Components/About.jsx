@@ -13,7 +13,7 @@ function About() {
                             Las imágenes utilizadas en esta galería han sido recopiladas de diversas fuentes en Internet, incluyendo sitios oficiales de parques, bancos de imágenes gratuitos y otros recursos disponibles públicamente. Reconocemos y respetamos los derechos de autor de cada imagen y agradecemos a los fotógrafos y creadores que han capturado la esencia única de estos parques.
                         </p>
                         <p className="mb-4">
-                            Si eres el propietario de alguna de las imágenes utilizadas y deseas que sea retirada, por favor contáctanos y la eliminaremos de inmediato.
+                            Si eres el propietario de alguna de las imágenes utilizadas y deseas que sea retirada, por favor contáctenos y la eliminaremos de inmediato.
                         </p>
                         <p>
                             ¡Explora la belleza de los parques nacionales con nuestra galería y disfruta de la naturaleza desde la comodidad de tu hogar!
