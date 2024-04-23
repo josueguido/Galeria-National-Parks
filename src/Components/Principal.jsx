@@ -26,9 +26,9 @@ export default function Principal() {
     return (
         <>
             <section className='py-4 px-4 text-end'>
-                <a href="About" >
+                <Link href="About" >
                     <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">About</button>
-                </a>
+                </Link>
             </section>
 
             <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 py-10 px-6 mx-6">
